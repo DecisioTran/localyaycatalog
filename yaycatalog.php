@@ -30,6 +30,7 @@ if (!wp_installing()) {
             include YAY_CATALOG_PLUGIN_PATH . 'includes/pages/catalog-admin.php';
             include YAY_CATALOG_PLUGIN_PATH . 'includes/enqueue/catalog-app.php';
             include YAY_CATALOG_PLUGIN_PATH . 'includes/api/catalog-api.php';
+            include YAY_CATALOG_PLUGIN_PATH . 'includes/shortcode/functions.php';
         }
     );
 
